@@ -1,0 +1,38 @@
+header {
+  background: purple;
+  height:50px;
+  width:100%;
+  display:flex;
+  align-items: center;
+  justify-content:flex-start;
+}
+
+button {
+  background: cyan;
+  border:none;
+  height:30px;
+  margin-left:10px;
+}
+
+#short {
+  width:130px;
+}
+
+#long {
+  width:200px;
+}
+main {
+  display: flex;
+}
+
+.main {
+  height:500px;
+  background:yellow;
+  flex-grow:4;
+}
+
+.side {
+  height: 500px;
+  flex-grow:1;
+  background:lime;
+}
